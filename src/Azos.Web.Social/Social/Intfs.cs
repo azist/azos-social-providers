@@ -36,26 +36,6 @@ namespace Azos.Web.Social
   }
 
   /// <summary>
-  /// Globally uniquely identifies social network archetypes
-  /// </summary>
-  public enum SocialNetID
-  {
-    UNS=0, // Unspecified
-
-    TWT=1, // Twitter
-    FBK=2, // Facebook
-    GPS=3, // Google+
-    LIN=4, // LinkedIn
-    IGM=5, // Instagram
-    PIN=6, // Pinterest
-
-    VKT=100, // VKontakte
-    ODN=101, // Odnoklassniki
-
-    OTH=1000000 // Other
-  }
-
-  /// <summary>
   /// Describes an entity that can perform social functions (i.e. login, post)
   /// </summary>
   public interface ISocialNetwork: IDaemonView
